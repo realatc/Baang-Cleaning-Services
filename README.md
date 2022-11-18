@@ -66,7 +66,7 @@ Thanks for making it this far - again, I hope to show a new way to you guys for 
 
 ## Links
 
-[TLDR Steps Version](https://github.com/realatc/Baang-Cleaning-Services/blob/main/Tldr-Edit-Pull-Merge-Steps.md)
+[TLDR Steps Version]([https://github.com/realatc/Baang-Cleaning-Services/blob/main/Tldr-Edit-Pull-Merge-Steps.md](https://github.com/realatc/Baang-Cleaning-Services/blob/main/Process%20Files/Tldr-Edit-Pull-Merge-Steps.md))
 
 #### Please excuse any misspellings or poor grammar used in this write up.
 #### Worth mentioning there are a number of ways tools like Github and Gitlab are used in development work.
