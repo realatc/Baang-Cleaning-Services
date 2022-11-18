@@ -45,7 +45,7 @@ Of course I want us to complete the project in a timely manner and be done with 
 
 Lets recap.
 
-1. I made my own branch (that can be used for future changes on all files, not just this specific scenario.
+1. I made my own branch (that can be used for future changes on all files, not just this specific scenario).
 2. I went to that branch, which now has my own copies (or "local") version of the files.
 3. I made a change to a file and created what is referred to as a "pull" request (the syntax/semmantics of pull will be explained at another time - but think of it as we are eventually going to "pull" our changes on our personal branch to the main one.
 4. We did another review just to be sure we liked it and moved forward with creating the request.
