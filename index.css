@@ -1,0 +1,238 @@
+/*body, and paragraph should be uniform through most of the code */
+
+body {
+    background: rgb(19, 30, 34);
+    text-align: center;
+    
+ }  
+
+ p{
+     text-align: left;
+     margin-left: 15px;
+     font-size: 20px;
+ }
+
+ /*Increase Font size while you hover over paragraph text inside a div*/
+ div p:hover{
+     font-size: 22px;
+ }
+
+ /*header and footer are pretty much the same*/
+ header, footer {
+    background: rgb(0, 204, 255);
+    width: 100%;
+    font-size: 24px;
+    padding-top: 10px;
+ }
+
+    /*footer had some special cases*/
+ footer{
+    position: relative;
+    bottom: 0px;
+    float: bottom;
+    clear: both;
+ }
+
+ /*on the contact table - hovering a row should change the color to this shade of red*/
+ #contact tr:hover, th:hover{
+        background: rgb(102, 255, 204);
+ }
+
+ /* I put these together to show a concept. #contact tr:hover is red; but overall td:hover is blue.
+ hover over the contact table to see the cell highlighted blue but the row highlighted red*/
+ th:hover, td:hover {
+    background-color: #0f9393;   
+    
+}
+
+/*hard to see blanched almond on that red background  */
+tr:hover a{
+    color: black;
+    
+}
+/*put all the table stuff together*/
+th,td{
+    border: 1px solid blanchedalmond;
+    font-size: 26px;
+}
+
+tr a{
+    color: aqua;
+}
+ 
+/* put all navigation elements together*/
+ nav {
+    text-align: center;
+    background: rgba(60, 60, 54, 0.326);
+    line-height: 50px;
+    word-spacing: 70px; /*space between words, I started at 20 and moved up to 50 then 70*/
+    font-size: 20px;
+ } 
+
+/*link text to black*/
+ nav a{
+    color: black;
+}
+/*hover link text to white*/
+ nav a:hover{
+        color: white;
+ }
+
+/*nav list items will display inline, no bullet points*/
+ nav li {
+    display: inline;
+    font-size: 36px;
+
+}
+ 
+ article {
+    background: black;
+    color: blanchedalmond;
+    overflow: hidden;
+    clear: both;
+    padding: 10px;
+ }
+ 
+ article p{
+    text-align: center;
+}
+
+ form{
+     margin-left: auto;
+     margin-right: auto; /*center the form*/
+     width: 70%;
+     text-align: left;
+     color: beige;
+     display: table;
+ }
+
+ /*formatting the text inputs*/
+ input[type=text], select {
+    width: 50px;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: table-cell;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-items: left;
+}
+/*big buttons*/
+input[type=button], input[type=reset]{
+    width: 70%;
+    padding: 18px 24px;
+    margin: 4px 0;
+    border: 3px solid rgb(215, 15, 15);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 24px;
+    align-items: center;
+    background-color: rgb(221, 169, 106);
+}
+/*in focus, change the color*/
+input:focus {
+    background-color: rgb(237, 189, 126)
+  }
+/*change color while hovering*/
+input:hover {
+    background-color: lightcoral;
+  }
+
+label {
+  
+    display: table-cell;
+    align-items: left;
+    padding: 10px;
+    
+}
+
+.row
+{
+    display: table-row; 
+    align-items: center;  
+    font-size: 24px;
+    
+}
+
+/*standard css formatting*/
+h2{    
+    color: blanchedalmond;
+    text-align: left;
+}
+
+div > h2 {
+    color: blanchedalmond;
+}
+
+#contact{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid blanchedalmond;
+    color: blanchedalmond;
+    
+}
+
+/*all about class '.' styling placed together*/
+.about{
+    width: 100%;    
+    border: 1px solid blanchedalmond;
+    color: blanchedalmond;
+    padding: 10px;
+    
+}
+
+.about li{
+    text-align: left;
+}
+
+.about li:hover{
+    color: rgb(242, 12, 12);
+}
+
+
+/* all div elements together */
+div li{
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;    
+}
+
+div li:hover{
+    font-size: 22px;
+    color: red;
+}
+
+div > img {
+    display: inline;
+}
+
+div a{
+    color:aqua;
+ }
+
+
+/*grid container setup*/
+#grid-container {
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+ }
+
+ #grid-container > div {
+    background: black;
+    color:blanchedalmond;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+
+
+
+ #hours p:hover{
+    text-decoration: underline;
+ }
+
+
+ h3 > strong {
+     padding: 0px;
+     font-size: 24px;
+ }
