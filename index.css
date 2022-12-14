@@ -254,7 +254,13 @@ div a{
 		width:100%;
 		color:blanchedalmond;
 		}
-	     #foundersText {
+	 #foundersText {
 		font-size:20pt;
 		text-align:wrap;
 		}
+.mission {
+		margin-left:auto;
+		margin-right:auto;
+		border-spacing:10px;
+		color:blanchedalmond;
+	}
