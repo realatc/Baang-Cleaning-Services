@@ -236,3 +236,13 @@ div a{
      padding: 0px;
      font-size: 24px;
  }
+ #quote {
+    position: absolute; 
+          top: 300px; 
+          left: 100px; 
+          right: 300px; 
+          bottom: 0; 
+          margin: auto; 
+          min-width: 50%;
+          min-height: 50%;
+ }
