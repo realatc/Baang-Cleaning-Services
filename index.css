@@ -246,3 +246,15 @@ div a{
           min-width: 50%;
           min-height: 50%;
  }
+.founders {
+		margin-left:auto;
+		margin-right:auto;
+		border-spacing:10px;
+		text-align:center;
+		width:100%;
+		color:blanchedalmond;
+		}
+	     #foundersText {
+		font-size:20pt;
+		text-align:wrap;
+		}
