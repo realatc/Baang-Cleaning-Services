@@ -1,5 +1,4 @@
 function validate() {
-			let form = document.querySelector("#form");
 			let name = document.querySelector("#name");
 			let contact = document.querySelector("#contact");
 			let firstName = document.querySelector("#firstName");
@@ -9,19 +8,19 @@ function validate() {
 			var email = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 			var phone = /^\d{10}$/;
 			
-			form.firstName.style.backgroundColor = "Lime";
-			form.lastName.style.backgroundColor = "Lime";
+			name.firstName.style.backgroundColor = "Lime";
+			name.lastName.style.backgroundColor = "Lime";
 			contact.jobEmail.style.backgroundColor = "Lime";
 			contact.contactNumber.style.backgroundColor = "Lime";
 			
-			if (form.firstName.value.length == 0 || null) {
+			if (name.firstName.value.length == 0 || null) {
 				alert("First Name Cannot Be Empty.\nPlease Try Again.");
-				form.firstName.style.backgroundColor = "Red";
+				name.firstName.style.backgroundColor = "Red";
 				event.preventDefault(); }
 	
-			if (form.lastName.value.length == 0 || null) {
+			if (name.lastName.value.length == 0 || null) {
 				alert("Last Name Cannot Be Empty.\nPlease Try Again.");
-				form.lastName.style.backgroundColor = "Red";
+				name.lastName.style.backgroundColor = "Red";
 				event.preventDefault(); }
 				
 			if (contact.jobEmail.value.length > 0  && contact.jobEmail.value.match(email)) 
@@ -43,5 +42,4 @@ function validate() {
 			}
 
 }
-	//form.getElementById.addEventListener("click", validate);
-			form.validation.addEventListener("click", validate);
+			verify.validation.addEventListener("click", validate);
