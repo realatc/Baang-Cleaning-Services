@@ -282,8 +282,12 @@ h1 {
 
 .logo {
     float: left;
+    width: 25px;
+    height: auto;
 }
 
 .SC  {
     float: right;
+    width: 25px;
+    height: auto;
 }
