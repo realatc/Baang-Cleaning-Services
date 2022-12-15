@@ -61,7 +61,7 @@ tr a{
 /* put all navigation elements together*/
  nav {
     text-align: right;
-    background: rgba(255, 255, 255, 0.326);
+    background: rgba(60, 60, 54, 0.326);
     line-height: 50px;
     word-spacing: 15px; /*space between words, I started at 20 and moved up to 50 then 70*/
     font-size: 5px;
