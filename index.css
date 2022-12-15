@@ -256,14 +256,14 @@ div a{
 		color:rgb(255, 255, 255);
 	}
 
-.bg {
+#bg {
         position: fixed; 
         top: -50%; 
         left: -50%; 
         width: 200%; 
         height: 200%;
          }
-.bg > img {
+#bg > img {
         position: absolute; 
         top: 200px; 
         left: 500px; 
