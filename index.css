@@ -291,7 +291,7 @@ div a{
   }
   
   .header h1 {
-    position: relative;
+    position: left;
     top: 18px;
     left: 10px;
   }
