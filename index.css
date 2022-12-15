@@ -52,7 +52,7 @@ tr:hover a{
 }
 /*put all the table stuff together*/
 th,td{
-    border: 1px solid blanchedalmond;
+    border: 1px solid rgb(255, 255, 255);
     font-size: 18px;
 }
 
@@ -88,7 +88,7 @@ tr a{
  
  article {
     background: black;
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
     overflow: hidden;
     clear: both;
     padding: 10px;
@@ -103,7 +103,7 @@ tr a{
      margin-right: auto; /*center the form*/
      width: 70%;
      text-align: left;
-     color: beige;
+     color: rgb(255, 255, 255);
      display: table;
  }
 
@@ -113,7 +113,7 @@ tr a{
     padding: 6px 10px;
     margin: 4px 0;
     display: table-cell;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
     box-sizing: border-box;
     align-items: left;
@@ -123,7 +123,7 @@ input[type=button], input[type=reset]{
     width: 70%;
     padding: 18px 24px;
     margin: 4px 0;
-    border: 3px solid rgb(215, 15, 15);
+    border: 3px solid rgb(45, 122, 173);
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 24px;
@@ -133,10 +133,6 @@ input[type=button], input[type=reset]{
 /*in focus, change the color*/
 input:focus {
     background-color: rgb(237, 189, 126)
-  }
-/*change color while hovering*/
-input:hover {
-    background-color: lightcoral;
   }
 
 label {
@@ -157,28 +153,20 @@ label {
 
 /*standard css formatting*/
 h2{    
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
     text-align: left;
 }
 
 div > h2 {
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
 }
 
-#contact{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid blanchedalmond;
-    color: blanchedalmond;
-    
-}
 
 /*all about class '.' styling placed together*/
 .about{
     width: 100%;    
-    border: 1px solid blanchedalmond;
-    color: blanchedalmond;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding: 10px;
     
 }
@@ -186,11 +174,6 @@ div > h2 {
 .about li{
     text-align: left;
 }
-
-.about li:hover{
-    color: rgb(242, 12, 12);
-}
-
 
 /* all div elements together */
 div li{
