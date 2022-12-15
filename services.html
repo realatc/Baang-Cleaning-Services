@@ -25,12 +25,12 @@
    <body>
       <h1>Services</h1>
       <main>
-		   <form>
+		   <form id = "form">
 			   <br>
-               <div>
+               
 			         <input type="button" id="html" name="fav_language" value=""> 
 			         <label for="html"><u><text-align: center>Basic House Cleaning</text-align: center></u> <br> Includes, carpets, tiles, hardwood floors. Accessible shelving, upholstery, and glass</label>
-               </div> 
+                
 			   <br>
 			      <input type="button" id="css" name="fav_language" value="">
 			      <label for="css"><u><text-align: center>House Cleaning Plus</text-align: center></u> <br> includes basic house cleaning with utility areas (bathrooms, garages, and appliances like fridges, stoves ovens.</label>
@@ -41,8 +41,17 @@
 			      <input type="button" id="javascript" name="fav_language" value="">
 			      <label for="javascript"><u><text-align: center>House and Life cleaning</text-align: center></u> <br> Includes the previous with up to X vehicles being cleaned, interior and exterior. etc.</label>
 		   </form>
-		      <p><a href="shopping_cart.html" input type="button"> Continue to Shopping cart</p>
-      </main>      
+		      <p><a href="shopping_cart.html" input type="button" id = "shop"> Continue to Shopping cart</p>
+      </main>  
+<script>
+	document.getElementById("shop").style.display = "none"
+	let form = document.querySelector("form");
+	let shop = document.querySelector("shop");
+	document.addEventListener("click", function(event) {
+		if (event.target.closest("form")) { document.getElementById("shop").style.display = "" }
+		else {document.getElementById("shop").style.display = "none"}
+		} )
+</script>
    </body>
 </html>
 
