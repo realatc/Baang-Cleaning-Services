@@ -80,7 +80,7 @@ tr a{
 
 /*nav list items will display inline, no bullet points*/
  nav li {
-    display: right;
+    display: inline;
     font-size: 24px;
 
 }
