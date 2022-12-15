@@ -256,7 +256,7 @@ div a{
         height: 200%;
          }*/
          
-#bg {
+/*#bg {
         position: center; 
         top: 200px; 
         left: 500px; 
@@ -269,7 +269,7 @@ div a{
 
 #bg {
     text-align: fixed;
-}
+} */
 
 .ourQuotes {
         text-align: center; 
@@ -295,4 +295,8 @@ h1 {
     padding-top: auto;
     padding-right: 15px;
     background-color: rgb(0, 204, 255);
+}
+
+#showSlideScript {
+    text-align: center;
 }
