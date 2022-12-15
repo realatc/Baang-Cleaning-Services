@@ -197,10 +197,10 @@ div li{
     text-align: left;
     padding: 5px;    
 }
-
+/*Ex: As seen on our_mission page when hovering */
 div li:hover{
     font-size: 22px;
-    color: red;
+    color: rgb(46, 127, 173);
 }
 
 div > img {
@@ -264,3 +264,21 @@ div a{
 		border-spacing:10px;
 		color:blanchedalmond;
 	}
+
+#bg {
+        position: fixed; 
+        top: -50%; 
+        left: -50%; 
+        width: 200%; 
+        height: 200%;
+         }
+#bg img {
+        position: absolute; 
+        top: 200px; 
+        left: 500px; 
+        right: 0; 
+        bottom: 0; 
+        margin: auto; 
+        min-width: 50%;
+        min-height: 50%;
+         }
