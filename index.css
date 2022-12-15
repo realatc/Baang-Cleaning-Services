@@ -307,11 +307,6 @@ h1 {
          
 #slideshow-pictures > img {
         position: center; 
-        top: 200px; 
-        left: 500px; 
-        right: 0; 
-        bottom: 0; 
-        margin: auto; 
-        min-width: 50%;
-        min-height: 50%;
+        width: 250px;
+        height: auto;
         }
