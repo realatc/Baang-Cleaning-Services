@@ -41,7 +41,7 @@ body {
  /* I put these together to show a concept. #contact tr:hover is red; but overall td:hover is blue.
  hover over the contact table to see the cell highlighted blue but the row highlighted red*/
  th:hover, td:hover {
-    background-color: #0f9393;   
+    background-color: #2592b3;   
     
 }
 
@@ -53,7 +53,7 @@ tr:hover a{
 /*put all the table stuff together*/
 th,td{
     border: 1px solid blanchedalmond;
-    font-size: 26px;
+    font-size: 18px;
 }
 
 tr a{
@@ -62,11 +62,11 @@ tr a{
  
 /* put all navigation elements together*/
  nav {
-    text-align: center;
+    text-align: right;
     background: rgba(60, 60, 54, 0.326);
     line-height: 50px;
-    word-spacing: 70px; /*space between words, I started at 20 and moved up to 50 then 70*/
-    font-size: 20px;
+    word-spacing: 20px; /*space between words, I started at 20 and moved up to 50 then 70*/
+    font-size: 10px;
  } 
 
 /*link text to black*/
@@ -197,10 +197,10 @@ div li{
     text-align: left;
     padding: 5px;    
 }
-
+/*Ex: As seen on our_mission page when hovering */
 div li:hover{
     font-size: 22px;
-    color: red;
+    color: rgb(46, 127, 173);
 }
 
 div > img {
@@ -264,3 +264,21 @@ div a{
 		border-spacing:10px;
 		color:blanchedalmond;
 	}
+
+#bg {
+        position: fixed; 
+        top: -50%; 
+        left: -50%; 
+        width: 200%; 
+        height: 200%;
+         }
+#bg img {
+        position: absolute; 
+        top: 200px; 
+        left: 500px; 
+        right: 0; 
+        bottom: 0; 
+        margin: auto; 
+        min-width: 50%;
+        min-height: 50%;
+         }
