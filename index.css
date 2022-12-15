@@ -128,7 +128,7 @@ input[type=button], input[type=reset]{
     box-sizing: border-box;
     font-size: 24px;
     align-items: center;
-    background-color: rgb(221, 169, 106);
+    background-color: rgb(189, 185, 181);
 }
 /*in focus, change the color*/
 input:focus {
