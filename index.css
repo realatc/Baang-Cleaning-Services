@@ -288,16 +288,11 @@ div a{
         height: 2px;
         background: #555;
         } */
-  
-h1 {
-    position: left;
-    top: 18px;
-    left: 10px;
-  }
 
-/*h1 {
+
+h1 {
     text-align: center;
-} */
+} 
 
 #logo {
     text-align: left;
