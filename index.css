@@ -132,7 +132,7 @@ input[type=button], input[type=reset]{
 }
 /*in focus, change the color*/
 input:focus {
-    background-color: rgb(237, 189, 126)
+    background-color: rgb(235, 236, 126)
   }
 
 label {
