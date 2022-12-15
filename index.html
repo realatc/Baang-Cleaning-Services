@@ -20,8 +20,49 @@
 	   <div id="bg">
 			<img src="Images/cleaning.jpg" alt="cleaing supplies">
 		</div>
-		<div id="quote">
-		<h2>"My home is the cleanest<br> it has ever been since I started<br> using Banng Cleaning Services!"<br> ~ Jane Doe</h2>
-		</div>	
+		<div class="slideshow-container">
+
+<div class="ourQuotes fade">
+  <h2>"My home is the cleanest<br> it has ever been since I started<br> using Banng Cleaning Services!"<br> ~ Jane Doe</h2>
+</div>
+
+<div class="ourQuotes fade">
+  <h2>"The cleaning never seems<br> to stop! But thanks to Baang Cleaning,<br>I can spend time with my family!"<br> ~ John Brown</h2>
+</div>
+
+<div class="ourQuotes fade">
+  <h2>"My dogs make a huge mess<br> that i can't keep up with but Banng<br> Cleaning make it look easy!"<br> ~ Tom White</h2>
+</div>
+
+</div>
+<br>
+<div>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("ourQuotes");
+  let dots = document.getElementsByClassName("dot");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++; //increment the slideIndex 
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", ""); 
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";    
+  setTimeout(showSlides, 3500); 
+}
+  </script>
    </body>
 </html>
