@@ -66,7 +66,8 @@ tr a{
     background: rgba(60, 60, 54, 0.326);
     line-height: 50px;
     word-spacing: 20px; /*space between words, I started at 20 and moved up to 50 then 70*/
-    font-size: 10px;
+    font-size: 5px;
+    padding-left: 5px;
  } 
 
 /*link text to black*/
