@@ -256,14 +256,14 @@ div a{
 		color:rgb(255, 255, 255);
 	}
 
-/*#bg {
+.bg {
         position: fixed; 
         top: -50%; 
         left: -50%; 
         width: 200%; 
         height: 200%;
          }
-#bg > img {
+.bg > img {
         position: absolute; 
         top: 200px; 
         left: 500px; 
@@ -272,30 +272,33 @@ div a{
         margin: auto; 
         min-width: 50%;
         min-height: 50%;
-         }
-         */
+        }
 
 .ourQuotes {
-    position: center; 
+        position: center; 
         top: -50%; 
         left: -50%; 
         width: 200%; 
         height: 200%;
-}
+        }
 
-/*.header img {
-    float: left;
-    width: 2px;
-    height: 2px;
-    background: #555;
-  } */
+/*#div id="logo" {
+        float: left;
+        width: 2px;
+        height: 2px;
+        background: #555;
+        } 
   
-.header h1 {
+#header h1 {
     position: left;
     top: 18px;
     left: 10px;
-  } 
+  } */
 
 h1 {
     text-align: center;
+}
+
+h1 image {
+    text-align: left;
 }
