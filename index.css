@@ -184,7 +184,7 @@ div > h2 {
 /* all div elements together */
 div li{
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     padding: 5px;    
 }
 /*Ex: As seen on our_mission page when hovering */
@@ -239,7 +239,7 @@ div a{
 		font-size:20pt;
 		text-align:wrap;
 		}
-        
+
 .mission {
         text-align: center;
 		margin-left:auto;
