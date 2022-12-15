@@ -279,11 +279,8 @@ div a{
 }
 
 .slideshow-container > .ourQuotes {
-        position: center; 
-        top: -50%; 
-        left: -50%; 
-        width: 200%; 
-        height: 200%;
+        text-align: right; 
+
         }
 
 h1 {
