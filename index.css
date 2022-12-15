@@ -288,6 +288,13 @@ h1 {
 
 }
 
+#SC {
+    text-align: right;
+    margin-top: 30px;
+    width: 25px;
+    height: auto;
+}
+
 #SC > img {
     text-align: right;
     margin-top: 30px;
