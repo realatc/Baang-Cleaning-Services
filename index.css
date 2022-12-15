@@ -275,7 +275,7 @@ div a{
          }
          */
 
-div class ourQuotes fade{
+#ourQuotes fade {
     position: center; 
         top: -50%; 
         left: -50%; 
