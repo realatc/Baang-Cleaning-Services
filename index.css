@@ -284,13 +284,13 @@ h1 {
     float: left;
     width: 60px;
     height: auto;
-    padding: auto;
+    padding-top: auto;
 }
 
 .SC  {
     float: right;
     width: 30px;
     height: auto;
-    padding-top: 90px;
+    padding-top: 85px;
     background-color: rgb(0, 204, 255);
 }
