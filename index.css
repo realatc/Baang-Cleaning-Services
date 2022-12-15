@@ -37,8 +37,7 @@ body {
         background: rgb(102, 255, 204);
  }
 
- /* I put these together to show a concept. #contact tr:hover is red; but overall td:hover is blue.
- hover over the contact table to see the cell highlighted blue but the row highlighted red*/
+ /* Contact hover color*/
  th:hover, td:hover {
     background-color: #2592b3;   
     
@@ -160,6 +159,14 @@ div > h2 {
     color: rgb(255, 255, 255);
 }
 
+#contact{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    
+}
 
 /*all about class '.' styling placed together*/
 .about{
