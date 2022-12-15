@@ -204,7 +204,7 @@ div a{
 
  #grid-container > div {
     background: black;
-    color:blanchedalmond;
+    color:rgb(255, 255, 255);
     padding-left: 15px;
     padding-right: 15px;
  }
@@ -236,7 +236,7 @@ div a{
 		border-spacing:10px;
 		text-align:center;
 		width:100%;
-		color:blanchedalmond;
+		color:rgb(255, 255, 255);
 		}
 	 #foundersText {
 		font-size:20pt;
