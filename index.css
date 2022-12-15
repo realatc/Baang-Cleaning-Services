@@ -282,7 +282,7 @@ h1 {
 
 .logo {
     float: left;
-    width: 25px;
+    width: 50px;
     height: auto;
     padding-top: 25px;
 }
@@ -291,6 +291,6 @@ h1 {
     float: right;
     width: 25px;
     height: auto;
-    padding-top: 25px;
+    padding-top: 100px;
     background-color: rgb(0, 204, 255);
 }
