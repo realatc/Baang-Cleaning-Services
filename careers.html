@@ -19,27 +19,29 @@
     
       
 <main>
-<form id = "form">
-	<h1>Apply Now</h1>
-	<form id = "name">
-	<input type="submit" id="validation">
-		<label for="firstName">First Name:</label><br>
-		<input type="text" placeholder="First Name" id="firstName"><br>
-		<label for="lastName">Last Name:</label><br>
-		<input type="text" placeholder="Last Name" id="lastName"> <br>
-	</form>
+	<h1>Careers</h1>
+		<h2>Personal Information</h2>
+			<table>
+			<form id = "name">
+				<label for="firstName">First Name:</label><br>
+				<input type="text" placeholder="First Name" id="firstName"><br>
+				<label for="lastName">Last Name:</label><br>
+				<input type="text" placeholder="Last Name" id="lastName"> <br>
+</form>
   
-		<h2>How should we contact you?</h2>
-	<form id = "contact">
-		<label for="jobEmail">Email:</label><br>
-		<input type="email" name = "Email" placeholder="abc@email.com" id="jobEmail"><br>
-		<label for="contactNumber">Phone Number:</label><br>
-		<input type="tel" placeholder="xxx-xxx-xxxx" id="contactNumber">
-	</form>
+		<h2>Contact Information</h2>
+			<form id = "contact">
+				<label for="jobEmail">Email:</label><br>
+				<input type="email" name = "Email" placeholder="abc@email.com" id="jobEmail"><br>
+				<label for="contactNumber">Phone Number:</label><br>
+				<input type="tel" placeholder="(xxx)-xxx-xxxx" id="contactNumber">
+			</form>
+		</table>
   
-		<h2> Do you have a Resume?</h2>
+		<h2>Attach Resume Here!</h2>
 	<form>
 		<input type="file"><br>
+		<input type="submit" id="validation">
 	</form>
    </form>
   </main>
