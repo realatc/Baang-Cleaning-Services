@@ -3,9 +3,6 @@
 <meta charset =" utf-8">
 <title>Home</title>
 <link rel="shortcut icon" href="Images/boom-42441_1280.png" width="16" height="auto">
-<style>
-label {display: inline-block; width: 100px;}
-</style>
 <html>
    <body>
 	  <header>
@@ -17,17 +14,26 @@ label {display: inline-block; width: 100px;}
       </div>
         <h1>Shopping Cart</h1>
        	   	<nav>
-		          <ul>
-					<li><a href="index.html" style="word-spacing:normal">Home</a></li>                  
-                	<li><a href="services.html">Services</a></li>
-                	<li><a href="about.html" style="word-spacing:normal">About Us</a></li>
-                	<li><a href="our_mission.html" style="word-spacing:normal">Our Mission</a></li>
-                	<li><a href="contact.html" style="word-spacing:normal">Contact Us</a></li>
-                	<li><a href="careers.html" style="word-spacing:normal">Careers</a></li>
+		          <ul>                  
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html" style="word-spacing:normal">About Us</a></li>
+                <li><a href="our_mission.html" style="word-spacing:normal">Our Mission</a></li>
+                <li><a href="contact.html" style="word-spacing:normal">Contact Us</a></li>
+                <li><a href="careers.html" style="word-spacing:normal">Careers</a></li>
               </ul>
            </nav>
 	  </header> 
+		<style>
+		form{
+			position: relative;
+			display: inline;
+		}
+		input{
+			display:inline-block;
+		}
+		</style>
 		<form>
+		<p>
 		<label for="roomAmount">The number of rooms to be cleaned:</label>
 		<select name="roomAmount" multiple>
 			<option value="one">1</option>
@@ -38,28 +44,27 @@ label {display: inline-block; width: 100px;}
 			<option value="six">6</option>
 			<option value="seven">7</option>
 		</select>
+		</p>
+		<p>Additional comments: 
+		<input type="textbox"></p>
 		
-		<p>Additional comments: </p>
-		<input type="textbox">
+		<p>First Name: 
+		<input type="text"></p>
 		
-		<p>First Name: </p>
-		<input type="text">
+		<p>Last Name: 
+		<input type="text"></p>
 		
-		<p>Last Name: </p>
-		<input type="text">
+		<p>Address: 
+		<input type="text"></p>
 		
-		<p>Address: </p>
-		<input type="text">
-		
-		<p>Contact Inofrmation: </p>
+		<p>Contact Information:
 		<input type="email" name = "Email" placeholder="abc@email.com">
 		<input type="tel" placeholder="xxx-xxx-xxxx">
+		</p>
+		<p>Schdule your cleaning: 
+		<input type="datetime-local"></p>
 		
-		<p>Schdule your cleaning: </p>
-		<input type="datetime-local">
-		
-		<p>Payment method: </p>
-		<p>credit/Debit</p>
+		<p>Card Information: </p>
 			<div class="card-number">
           <label> Card Number </label>
           <input
@@ -69,7 +74,7 @@ label {display: inline-block; width: 100px;}
         </div>
         <br />
         <div class="date-number">
-          <label> Expiry Date </label>
+          <label> Expiration Date </label>
           <input type="text" class="date-number-field" 
                  placeholder="DD-MM-YY" />
         </div>
