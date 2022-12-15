@@ -41,7 +41,7 @@ body {
  /* I put these together to show a concept. #contact tr:hover is red; but overall td:hover is blue.
  hover over the contact table to see the cell highlighted blue but the row highlighted red*/
  th:hover, td:hover {
-    background-color: #0f9393;   
+    background-color: #2592b3;   
     
 }
 
