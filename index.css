@@ -65,9 +65,9 @@ tr a{
     text-align: right;
     background: rgba(60, 60, 54, 0.326);
     line-height: 50px;
-    word-spacing: 20px; /*space between words, I started at 20 and moved up to 50 then 70*/
+    word-spacing: 15px; /*space between words, I started at 20 and moved up to 50 then 70*/
     font-size: 5px;
-    padding-left: 5px;
+    padding-right: 7px;
  } 
 
 /*link text to black*/
@@ -82,7 +82,7 @@ tr a{
 /*nav list items will display inline, no bullet points*/
  nav li {
     display: inline;
-    font-size: 36px;
+    font-size: 24px;
 
 }
  
