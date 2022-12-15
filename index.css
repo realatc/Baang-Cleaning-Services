@@ -226,16 +226,7 @@ div a{
      padding: 0px;
      font-size: 24px;
  }
- #ourQuotes {
-    position: absolute; 
-          top: 300px; 
-          left: 100px; 
-          right: 300px; 
-          bottom: 0; 
-          margin: auto; 
-          min-width: 50%;
-          min-height: 50%;
- }
+
 .founders {
 		margin-left:auto;
 		margin-right:auto;
@@ -279,8 +270,14 @@ div a{
 }
 
 .slideshow-container > .ourQuotes {
-        text-align: right; 
-
+        position: absolute; 
+        top: 300px; 
+        left: 100px; 
+        right: 300px; 
+        bottom: 0; 
+        margin: auto; 
+        min-width: 50%;
+        min-height: 50%;
         }
 
 h1 {
