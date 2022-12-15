@@ -284,10 +284,12 @@ h1 {
     float: left;
     width: 25px;
     height: auto;
+    padding-top: 25px;
 }
 
 .SC  {
     float: right;
     width: 25px;
     height: auto;
+    padding-top: 25px;
 }
