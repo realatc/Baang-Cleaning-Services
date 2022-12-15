@@ -260,10 +260,11 @@ div a{
 		text-align:wrap;
 		}
 .mission {
+        text-align: center;
 		margin-left:auto;
 		margin-right:auto;
 		border-spacing:10px;
-		color:blanchedalmond;
+		color:rgb(255, 255, 255);
 	}
 
 /*#bg {
