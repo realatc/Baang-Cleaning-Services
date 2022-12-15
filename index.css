@@ -235,10 +235,11 @@ div a{
 		width:100%;
 		color:rgb(255, 255, 255);
 		}
-	 #foundersText {
+#foundersText {
 		font-size:20pt;
 		text-align:wrap;
 		}
+        
 .mission {
         text-align: center;
 		margin-left:auto;
