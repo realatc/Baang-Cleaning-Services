@@ -295,3 +295,7 @@ div a{
     top: 18px;
     left: 10px;
   }
+
+h1 {
+    text-align: left;
+}
