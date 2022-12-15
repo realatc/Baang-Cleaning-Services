@@ -248,15 +248,16 @@ div a{
 		color:rgb(255, 255, 255);
 	}
 
-#bg {
+/*#bg {
         position: fixed; 
         top: -50%; 
         left: -50%; 
         width: 200%; 
         height: 200%;
-         }
-/*#bg {
-        position: absolute; 
+         }*/
+         
+#bg {
+        position: center; 
         top: 200px; 
         left: 500px; 
         right: 0; 
@@ -264,7 +265,7 @@ div a{
         margin: auto; 
         min-width: 50%;
         min-height: 50%;
-        } */
+        }
 
 #bg {
     text-align: fixed;
