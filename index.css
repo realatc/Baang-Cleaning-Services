@@ -274,21 +274,13 @@ div a{
         min-height: 50%;
         }
 
-.ourQuotes {
+.slideshow-container {
         position: center; 
         top: -50%; 
         left: -50%; 
         width: 200%; 
         height: 200%;
         }
-
-/*#div id="logo" {
-        float: left;
-        width: 2px;
-        height: 2px;
-        background: #555;
-        } */
-
 
 h1 {
     text-align: center;
@@ -297,5 +289,7 @@ h1 {
 #logo {
     text-align: left;
     margin-top: 30px;
+    width: 25px;
+    height: auto;
 
 }
